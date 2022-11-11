@@ -14,7 +14,7 @@ const About = () => {
 					<div className='flex justify-between items-center max-w-[500px] mx-auto'>
 						<p className='flex flex-col'>
 							<span className='font-bold'>Bachelor of Science in Information Technology</span>
-							<span className='font-medium'>- STI College -</span>
+							<span className='font-medium'>- STI College Sta. Mesa -</span>
 						</p>
 						<p>
 							<span className='font-medium'>2016-2021</span>

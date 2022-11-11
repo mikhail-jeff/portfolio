@@ -48,8 +48,8 @@ const Projects = () => {
 						<a href='https://github.com/mikhail-jeff/mern-goal-app'>
 							<p className='font-bold text-center pt-2'>MERN Goal App</p>
 						</a>
-						<p className='font-medium text-center'>(MERN Stack, Bootstrap)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A full stack web app using MERN stack styled with Bootstrap 5.</p>
+						<p className='font-medium text-center'>(MERN Stack)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>A full stack web app using MERN stack.</p>
 					</div>
 				</div>
 			</div>
