@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaHtml5, FaCss3 } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
-import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiPhp, SiLaravel, SiBootstrap, SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiPhp, SiBootstrap, SiMysql } from 'react-icons/si';
+import { DiGit } from 'react-icons/di';
 
 const Skills = () => {
 	return (
@@ -88,11 +89,11 @@ const Skills = () => {
 						<p className='font-medium'>PHP</p>
 					</div>
 					<div className='flex flex-col justify-center items-center border p-4 shadow-md hover:scale-105 duration-300'>
-						<SiLaravel
+						<DiGit
 							size={80}
-							className='text-orange-700'
+							className='text-orange-600'
 						/>
-						<p className='font-medium'>Laravel 9</p>
+						<p className='font-medium'>Git</p>
 					</div>
 					<div className='flex flex-col justify-center items-center border p-4 shadow-md hover:scale-105 duration-300'>
 						<SiMysql

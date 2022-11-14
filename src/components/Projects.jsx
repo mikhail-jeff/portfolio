@@ -22,8 +22,8 @@ const Projects = () => {
 						<a href='https://github.com/mikhail-jeff/BlueDOT'>
 							<p className='font-bold text-center pt-2'>BLueDOT Project</p>
 						</a>
-						<p className='font-medium text-center'>(HTML, CSS, JS, Bootstrap, Vercel)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>An info website in raising awareness about our planet's crisis we are currently facing. </p>
+						<p className='font-medium text-center'>(HTML, CSS, JS, Bootstrap)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>A responsive static info website focused on raising awareness about our planet's crisis. This is the first website I've created.</p>
 					</div>
 
 					<div className='inline-block shadow-lg'>
@@ -46,10 +46,10 @@ const Projects = () => {
 							alt=''
 						/>
 						<a href='https://github.com/mikhail-jeff/mern-goal-app'>
-							<p className='font-bold text-center pt-2'>MERN Goal App</p>
+							<p className='font-bold text-center pt-2'>Goals App</p>
 						</a>
-						<p className='font-medium text-center'>(MERN Stack)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A full stack web app using MERN stack.</p>
+						<p className='font-medium text-center'>(MERN Stack, Tailwind CSS)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>A simple web app that allows you to set your goals. This web app helps me build a solid foundation on API, CRUD operation and how backend & frontend technology works. </p>
 					</div>
 				</div>
 			</div>
