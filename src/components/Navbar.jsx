@@ -164,7 +164,7 @@ const Navbar = () => {
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
 							className='flex justify-between items-center w-full text-gray-900 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='https://www.google.com/'
+							href='mailto: mikhailcruz78@gmail.com'
 						>
 							Email
 							<HiOutlineMail
