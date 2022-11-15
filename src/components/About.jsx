@@ -5,7 +5,7 @@ const About = () => {
 			className='mb-[170px] w-full h-screen flex flex-col justify-center items-center text-gray-500'
 		>
 			<div className='max-w-[1080px] mx-auto p-4'>
-				<p className='text-4xl font-bold text-center mb-4 '>About</p>
+				<p className='text-4xl font-bold text-center mb-4 text-gray-800'>About</p>
 				<p className='max-w-[800px] text-justify'>
 					An aspiring full stack web developer | software engineer equipped with a diverse and promising skill set, willing to be trained and improve, a team player who can thrive in any working environment and can work independently with minimal supervision.
 				</p>

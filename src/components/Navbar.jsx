@@ -13,7 +13,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 shadow-md text-gray-900'>
+		<div className='fixed w-full h-[80px] flex justify-between items-center px-4 shadow-md dark:shadow-gray-500 dark:shadow-md'>
 			<div>
 				<img
 					src={logo}
@@ -23,8 +23,8 @@ const Navbar = () => {
 			</div>
 
 			{/* Menu */}
-			<ul className='hidden md:flex'>
-				<li className='font-medium uppercase text-gray-600 hover:text-gray-800'>
+			<ul className='hidden md:flex uppercase'>
+				<li className='font-medium text-gray-500 hover:font-bold'>
 					<Link
 						to='hero'
 						smooth={true}
@@ -33,7 +33,7 @@ const Navbar = () => {
 						Home
 					</Link>
 				</li>
-				<li className='font-medium uppercase'>
+				<li className='font-medium text-gray-500 hover:font-bold'>
 					<Link
 						to='about'
 						smooth={true}
@@ -42,7 +42,7 @@ const Navbar = () => {
 						About
 					</Link>
 				</li>
-				<li className='font-medium uppercase'>
+				<li className='font-medium text-gray-500 hover:font-bold'>
 					<Link
 						to='skills'
 						smooth={true}
@@ -51,7 +51,7 @@ const Navbar = () => {
 						Skills
 					</Link>
 				</li>
-				<li className='font-medium uppercase'>
+				<li className='font-medium text-gray-500 hover:font-bold'>
 					<Link
 						to='projects'
 						smooth={true}
@@ -60,7 +60,7 @@ const Navbar = () => {
 						Projects
 					</Link>
 				</li>
-				<li className='font-medium uppercase'>
+				<li className='font-medium text-gray-500 hover:font-bold'>
 					<Link
 						to='contact'
 						smooth={true}
@@ -76,13 +76,22 @@ const Navbar = () => {
 				onClick={handleClick}
 				className='md:hidden z-10'
 			>
-				{!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
+				{!nav ? (
+					<FaBars
+						className='text-gray-500'
+						size={25}
+					/>
+				) : (
+					<FaTimes
+						className='text-gray-500'
+						size={25}
+					/>
+				)}
 			</div>
 
 			{/* Mobile Menu */}
-			<ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-500 flex flex-col justify-center items-center'}>
+			<ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-300 flex flex-col justify-center items-center'}>
 				<li className='py-5 text-3xl'>
-					{' '}
 					<Link
 						onClick={handleClick}
 						to='hero'
@@ -136,10 +145,10 @@ const Navbar = () => {
 
 			{/* Social Icons */}
 			<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-				<ul>
+				<ul className='font-medium'>
 					<li className='w-[140px] h-[50px] flex justify-between items-center'>
 						<a
-							className='flex justify-between items-center w-full text-gray-900 ml-[-90px] hover:ml-[-10px] duration-300'
+							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							href='https://www.linkedin.com/in/jeff-mikhail-mangrobang-8878b7254/'
 						>
 							LinkedIn
@@ -151,7 +160,7 @@ const Navbar = () => {
 					</li>
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
-							className='flex justify-between items-center w-full text-gray-900 ml-[-90px] hover:ml-[-10px] duration-300'
+							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							href='https://github.com/mikhail-jeff'
 						>
 							GitHub
@@ -163,7 +172,7 @@ const Navbar = () => {
 					</li>
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
-							className='flex justify-between items-center w-full text-gray-900 ml-[-90px] hover:ml-[-10px] duration-300'
+							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							href='mailto: mikhailcruz78@gmail.com'
 						>
 							Email
@@ -175,9 +184,9 @@ const Navbar = () => {
 					</li>
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
-							className='flex justify-between items-center w-full text-gray-900 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='../assets/TECH-CV.pdf'
 							download
+							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
+							href='TECH-CV.pdf'
 						>
 							Resume
 							<BsFillPersonLinesFill

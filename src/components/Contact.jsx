@@ -8,8 +8,8 @@ const Contact = () => {
 		>
 			<div className='max-w-[1080px] p-4 mx-auto w-full'>
 				<div>
-					<p className='text-center text-4xl font-bold '>Contact</p>
-					<p className='text-center py-4'>Let's collaborate mate.</p>
+					<p className='text-center text-4xl font-bold text-gray-800'>Contact</p>
+					<p className='text-center pb-5'>Let's work together.</p>
 				</div>
 				<form
 					method='POST'
