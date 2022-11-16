@@ -37,7 +37,7 @@ function App() {
 			<button
 				type='button'
 				onClick={handleThemeSwitcher}
-				className='fixed z-10 right-6 top-24 p-1 round-md'
+				className='fixed z-10 right-4 top-24 p-1 round-md'
 			>
 				{theme === 'dark' ? (
 					<RiMoonFill

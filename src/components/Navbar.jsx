@@ -90,8 +90,8 @@ const Navbar = () => {
 			</div>
 
 			{/* Mobile Menu */}
-			<ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-300 flex flex-col justify-center items-center'}>
-				<li className='py-5 text-3xl'>
+			<ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-100 text-gray-800 flex flex-col justify-center items-center font-medium uppercase'}>
+				<li className='py-4 text-2xl'>
 					<Link
 						onClick={handleClick}
 						to='hero'
@@ -101,7 +101,7 @@ const Navbar = () => {
 						Home
 					</Link>
 				</li>
-				<li className='py-5 text-3xl'>
+				<li className='py-4 text-2xl'>
 					<Link
 						onClick={handleClick}
 						to='about'
@@ -111,7 +111,7 @@ const Navbar = () => {
 						About
 					</Link>
 				</li>
-				<li className='py-5 text-3xl'>
+				<li className='py-4 text-2xl'>
 					<Link
 						onClick={handleClick}
 						to='skills'
@@ -121,7 +121,7 @@ const Navbar = () => {
 						Skills
 					</Link>
 				</li>
-				<li className='py-5 text-3xl'>
+				<li className='py-4 text-2xl'>
 					<Link
 						onClick={handleClick}
 						to='projects'
@@ -131,7 +131,7 @@ const Navbar = () => {
 						Projects
 					</Link>
 				</li>
-				<li className='py-5 text-3xl'>
+				<li className='py-4 text-2xl'>
 					<Link
 						onClick={handleClick}
 						to='contact'
