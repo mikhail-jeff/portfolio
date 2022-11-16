@@ -39,7 +39,7 @@ function App() {
 				onClick={handleThemeSwitcher}
 				className='fixed z-10 right-6 top-24 p-1 round-md'
 			>
-				{theme === 'light' ? (
+				{theme === 'dark' ? (
 					<RiMoonFill
 						size={20}
 						className='text-gray-700 hover:scale-110'
@@ -47,7 +47,7 @@ function App() {
 				) : (
 					<BsSunFill
 						size={20}
-						className='text-gray-500 hover:scale-110'
+						className='text-yellow-300 hover:scale-110'
 					/>
 				)}
 			</button>
