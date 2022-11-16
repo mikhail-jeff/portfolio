@@ -48,8 +48,8 @@ const Projects = () => {
 						<a href='https://github.com/mikhail-jeff/mern-goal-app'>
 							<p className='font-bold text-xl text-center pt-2 text-gray-800'>Goals App</p>
 						</a>
-						<p className='font-medium text-center'>(MERN Stack, Tailwind CSS)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A simple web app that allows you to set your goals. This web app helps me build a solid foundation on API, CRUD operation and how backend & frontend technology works.</p>
+						<p className='font-medium text-center'>(MERN Stack, Bootstrap)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>A simple web app that allows you to set your goals. This web app helps me build a good foundation on API, CRUD operation and how backend & frontend technology works.</p>
 					</div>
 				</div>
 			</div>
