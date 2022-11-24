@@ -17,27 +17,27 @@ const Contact = () => {
 					className='flex flex-col max-w-[600px] w-full mx-auto'
 				>
 					<input
-						className='my-1 p-2 bg-gray-300 focus:outline-none'
+						className='my-1 p-2 bg-gray-300 focus:outline-none rounded-sm'
 						type='text'
 						name='name'
 						id=''
 						placeholder='Name'
 					/>
 					<input
-						className='my-1  p-2 bg-gray-300 focus:outline-none'
+						className='my-1  p-2 bg-gray-300 focus:outline-none rounded-sm'
 						type='email'
 						name='email'
 						id=''
 						placeholder='Email'
 					/>
 					<textarea
-						className='bg-gray-300 my-4 p-2 focus:outline-none'
+						className='bg-gray-300 my-1 p-2 focus:outline-none rounded-sm'
 						name='message'
 						id=''
 						rows='10'
-						placeholder='Message'
+						placeholder='Write something...'
 					></textarea>
-					<button className='border-2 p-2 my-1  bg-gray-300 hover:bg-gray-800 font-medium hover:text-white'>Send Message</button>
+					<button className='border p-2 my-1  bg-gray-300 hover:bg-gray-800 font-medium hover:text-white rounded-sm'>Submit</button>
 				</form>
 			</div>
 		</section>

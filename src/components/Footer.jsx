@@ -1,8 +1,8 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 
 const Footer = () => {
 	const [currentTime, setCurrentTime] = useState();
+
 	// const [currentDate, setCurrentDate] = useState();
 
 	useEffect(() => {
