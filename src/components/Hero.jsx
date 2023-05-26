@@ -11,7 +11,7 @@ const Hero = () => {
 			<div className='max-w-[1080px] mx-auto px-12 flex flex-col justify-center h-full'>
 				<h2 className='text-2xl sm:text-3xl text-gray-500 font-medium'>Hello, my name is</h2>
 				<h1 className='text-4xl sm:text-6xl font-bold text-gray-800 tracking-wide my-2'>Jeff Mikhail</h1>
-				<h2 className='text-3xl sm:text-3xl text-gray-500 font-medium'>Full Stack Web Developer / Software Engineer</h2>
+				<h2 className='text-3xl sm:text-3xl text-gray-500 font-medium'>Full Stack Developer / Software Engineer</h2>
 				<div className=''>
 					<Link
 						to='projects'
