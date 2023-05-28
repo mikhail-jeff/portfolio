@@ -6,8 +6,7 @@ const Projects = () => {
 	return (
 		<section
 			name='projects'
-			className='w-full h-screen flex flex-col justify-center items-center text-gray-500'
-		>
+			className='w-full h-screen flex flex-col justify-center items-center text-gray-500'>
 			<div className='max-w-[1080px] p-4 mx-auto'>
 				<p className='text-center text-4xl font-bold text-gray-800'>Projects</p>
 				<p className='text-center pb-5'>Check out some of my recent projects.</p>

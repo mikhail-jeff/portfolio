@@ -28,8 +28,7 @@ const Navbar = () => {
 					<Link
 						to='hero'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Home
 					</Link>
 				</li>
@@ -37,8 +36,7 @@ const Navbar = () => {
 					<Link
 						to='about'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						About
 					</Link>
 				</li>
@@ -46,8 +44,7 @@ const Navbar = () => {
 					<Link
 						to='skills'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Skills
 					</Link>
 				</li>
@@ -55,8 +52,7 @@ const Navbar = () => {
 					<Link
 						to='projects'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Projects
 					</Link>
 				</li>
@@ -64,8 +60,7 @@ const Navbar = () => {
 					<Link
 						to='contact'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Contact
 					</Link>
 				</li>
@@ -74,8 +69,7 @@ const Navbar = () => {
 			{/* Hamburger */}
 			<div
 				onClick={handleClick}
-				className='md:hidden z-10'
-			>
+				className='md:hidden z-10'>
 				{!nav ? (
 					<FaBars
 						className='text-gray-500'
@@ -96,8 +90,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						to='hero'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Home
 					</Link>
 				</li>
@@ -106,8 +99,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						to='about'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						About
 					</Link>
 				</li>
@@ -116,8 +108,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						to='skills'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Skills
 					</Link>
 				</li>
@@ -126,8 +117,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						to='projects'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Projects
 					</Link>
 				</li>
@@ -136,8 +126,7 @@ const Navbar = () => {
 						onClick={handleClick}
 						to='contact'
 						smooth={true}
-						duration={500}
-					>
+						duration={500}>
 						Contact
 					</Link>
 				</li>
@@ -149,8 +138,8 @@ const Navbar = () => {
 					<li className='w-[140px] h-[50px] flex justify-between items-center'>
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='https://www.linkedin.com/in/jeff-mikhail-mangrobang-8878b7254/'
-						>
+							target='_blank'
+							href='https://www.linkedin.com/in/jeff-mikhail-mangrobang-8878b7254/'>
 							LinkedIn
 							<FaLinkedin
 								className='text-blue-600'
@@ -161,8 +150,8 @@ const Navbar = () => {
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='https://github.com/mikhail-jeff'
-						>
+							target='_blank'
+							href='https://github.com/mikhail-jeff'>
 							GitHub
 							<FaGithub
 								className='text-gray-700'
@@ -173,8 +162,8 @@ const Navbar = () => {
 					<li className='w-[140px] h-[60px] flex justify-between items-center'>
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='mailto: mikhailcruz78@gmail.com'
-						>
+							target='_blank'
+							href='mailto: mikhailcruz78@gmail.com'>
 							Email
 							<HiOutlineMail
 								className='text-red-600'
@@ -186,8 +175,7 @@ const Navbar = () => {
 						<a
 							download
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
-							href='TECH-CV.pdf'
-						>
+							href='CV_UPDATED.pdf'>
 							Resume
 							<BsFillPersonLinesFill
 								className='text-gray-700'

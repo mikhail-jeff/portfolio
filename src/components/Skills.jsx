@@ -1,15 +1,14 @@
 import React from 'react';
 import { FaHtml5, FaCss3 } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
-import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiPhp, SiBootstrap, SiMysql } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiPhp, SiBootstrap, SiMysql, SiCsharp } from 'react-icons/si';
 import { DiGit } from 'react-icons/di';
 
 const Skills = () => {
 	return (
 		<section
 			name='skills'
-			className='w-full h-screen mb-[500px]'
-		>
+			className='w-full h-screen mb-[500px]'>
 			{/* Container */}
 			<div className=' max-w-[1080px] mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-500'>
 				<div className=''>
@@ -82,11 +81,11 @@ const Skills = () => {
 						<p className='font-medium'>Node Js</p>
 					</div>
 					<div className='flex flex-col justify-center items-center border p-4 shadow-md hover:scale-105 duration-300 dark:shadow-gray-500 dark:shadow-md'>
-						<SiPhp
+						<SiCsharp
 							size={80}
-							className='text-violet-500'
+							className='text-violet-700'
 						/>
-						<p className='font-medium'>PHP</p>
+						<p className='font-medium'>C#</p>
 					</div>
 					<div className='flex flex-col justify-center items-center border p-4 shadow-md hover:scale-105 duration-300 dark:shadow-gray-500 dark:shadow-md'>
 						<DiGit
