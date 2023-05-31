@@ -139,6 +139,7 @@ const Navbar = () => {
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							target='_blank'
+							rel='noreferrer'
 							href='https://www.linkedin.com/in/jeff-mikhail-mangrobang-8878b7254/'>
 							LinkedIn
 							<FaLinkedin
@@ -151,6 +152,7 @@ const Navbar = () => {
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							target='_blank'
+							rel='noreferrer'
 							href='https://github.com/mikhail-jeff'>
 							GitHub
 							<FaGithub
@@ -163,6 +165,7 @@ const Navbar = () => {
 						<a
 							className='flex justify-between items-center w-full text-gray-500 ml-[-90px] hover:ml-[-10px] duration-300'
 							target='_blank'
+							rel='noreferrer'
 							href='mailto: mikhailcruz78@gmail.com'>
 							Email
 							<HiOutlineMail

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3 } from 'react-icons/fa';
 import { TbBrandJavascript } from 'react-icons/tb';
-import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiPhp, SiBootstrap, SiMysql, SiCsharp } from 'react-icons/si';
+import { SiTailwindcss, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiBootstrap, SiMysql, SiCsharp } from 'react-icons/si';
 import { DiGit } from 'react-icons/di';
 
 const Skills = () => {
