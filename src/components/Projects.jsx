@@ -19,10 +19,10 @@ const Projects = () => {
 							alt=''
 						/>
 						<a href='https://github.com/mikhail-jeff/BlueDOT'>
-							<p className='font-bold text-xl text-center pt-2 text-gray-800'>BLueDOT Project</p>
+							<p className='font-extrabold text-xl text-center pt-2 text-gray-800'>BLueDOT Project</p>
 						</a>
-						<p className='font-medium text-center'>(HTML, CSS, JS, Bootstrap)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A responsive static info website focused on raising awareness about our planet's crisis. This is the first website I've created.</p>
+						<p className='font-bold text-center'>(HTML, CSS, JS, Bootstrap)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>I have created a responsive static informational website with a focus on raising awareness about the crisis our planet is facing. This marks my first website creation.</p>
 					</div>
 
 					<div className='inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md'>
@@ -32,10 +32,10 @@ const Projects = () => {
 							alt=''
 						/>
 						<a href='https://github.com/mikhail-jeff/managementSystem'>
-							<p className='font-bold text-xl text-center pt-2  text-gray-800'>Management System</p>
+							<p className='font-extrabold text-xl text-center pt-2  text-gray-800'>Management System</p>
 						</a>
-						<p className='font-medium text-center'>(HTML, PHP, Bootstrap, MySQL)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A simple management system with CRUD operation, search, login & logout functionalities.</p>
+						<p className='font-bold text-center'>(HTML, PHP, Bootstrap, MySQL)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>The management system offers essential functionalities including CRUD operations, search capability, as well as login and logout features.</p>
 					</div>
 
 					<div className='inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md'>
@@ -45,10 +45,10 @@ const Projects = () => {
 							alt=''
 						/>
 						<a href='https://github.com/mikhail-jeff/mern-goal-app'>
-							<p className='font-bold text-xl text-center pt-2 text-gray-800'>Goals App</p>
+							<p className='font-extrabold text-xl text-center pt-2 text-gray-800'>Goals App</p>
 						</a>
-						<p className='font-medium text-center'>(MERN Stack, Bootstrap)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>A simple web app that allows you to set your goals. This web app helps me build a good foundation on API, CRUD operation and how backend & frontend technology works.</p>
+						<p className='font-bold text-center'>(MERN Stack, Bootstrap)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>A simple web app that allows you to set your goals. Helps me build a good foundation in API, CRUD operation, and understanding backend & frontend technologies.</p>
 					</div>
 				</div>
 			</div>

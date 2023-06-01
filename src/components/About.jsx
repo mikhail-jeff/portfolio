@@ -2,8 +2,7 @@ const About = () => {
 	return (
 		<section
 			name='about'
-			className='mb-[170px] w-full h-screen flex flex-col justify-center items-center text-gray-500'
-		>
+			className='mb-[170px] w-full h-screen flex flex-col justify-center items-center text-gray-500'>
 			<div className='max-w-[1080px] mx-auto p-4'>
 				<p className='text-4xl font-bold text-center mb-4 text-gray-800'>About</p>
 				<p className='max-w-[800px] text-justify'>
@@ -17,7 +16,7 @@ const About = () => {
 							<span className='font-medium'>- STI College Sta. Mesa -</span>
 						</p>
 						<p>
-							<span className='font-medium'>2016-2021</span>
+							<span className='font-medium'>2021</span>
 						</p>
 					</div>
 					<div className='flex justify-between items-center max-w-[500px] mx-auto mt-3'>
