@@ -31,7 +31,7 @@ const Hero = () => {
 						to='projects'
 						smooth={true}
 						duration={500}
-						className='max-w-[180px] mt-2 group px-6 py-3 my-1 border-1 rounded-md flex justify-center items-center bg-gray-500 border-gray-800 hover:text-white font-extrabold'>
+						className='max-w-[180px] mt-2 group px-6 py-3 my-1 border-1 rounded-md flex justify-center items-center bg-gray-500 border-gray-800 hover:text-white font-extrabold hover:cursor-pointer'>
 						View Projects
 						<span className='group-hover:rotate-90 duration-300'>
 							<HiArrowNarrowRight className='ml-3' />
