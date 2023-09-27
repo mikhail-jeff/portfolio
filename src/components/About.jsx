@@ -6,7 +6,7 @@ const About = () => {
 			<div className='max-w-[1080px] mx-auto p-4'>
 				<p className='text-4xl font-bold text-center mb-4 text-gray-800'>About</p>
 				<p className='max-w-[800px] text-justify'>
-					I am an ambitious full stack web developer and software engineer with a versatile skill set, continuously seeking opportunities for growth and improvement. As a collaborative team player, I thrive in diverse working environments and possess the ability to work independently with minimal
+					I am an ambitious full stack web developer and software developer with a versatile skill set, continuously seeking opportunities for growth and improvement. As a collaborative team player, I thrive in diverse working environments and possess the ability to work independently with minimal
 					supervision.
 				</p>
 				<div className='m-12'>

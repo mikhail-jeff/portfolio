@@ -17,12 +17,13 @@ const Hero = () => {
 						sequence={[
 							'Full Stack Web Developer', // Types
 							1000, // Waits 1s
-							'Software Engineer', // Deletes 'One' and types 'Two'
+							'Software Developer', // Deletes 'One' and types 'Two'
 							2000, // Waits 2s
 						]}
 						wrapper='span'
 						cursor={true}
 						repeat={Infinity}
+						y
 					/>
 				</h2>
 

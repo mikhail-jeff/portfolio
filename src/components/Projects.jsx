@@ -1,6 +1,6 @@
-import bluedot from '../assets/blueDOT.png';
-import management from '../assets/management.png';
-import merngoal from '../assets/merngoal.png';
+import bluedot from "../assets/blueDOT.png";
+import miniproject from "../assets/miniproject.png";
+import merngoal from "../assets/merngoal.png";
 
 const Projects = () => {
 	return (
@@ -28,14 +28,14 @@ const Projects = () => {
 					<div className='inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md'>
 						<img
 							className='w-full h-[200px] object-cover'
-							src={management}
+							src={miniproject}
 							alt=''
 						/>
-						<a href='https://github.com/mikhail-jeff/managementSystem'>
-							<p className='font-extrabold text-xl text-center pt-2  text-gray-800'>Management System</p>
+						<a href='https://kodego-mini-project-2.netlify.app/'>
+							<p className='font-extrabold text-xl text-center pt-2  text-gray-800'>Game On</p>
 						</a>
-						<p className='font-bold text-center'>(HTML, PHP, Bootstrap, MySQL)</p>
-						<p className='font-medium  px-3 py-2 text-justify'>The management system offers essential functionalities including CRUD operations, search capability, as well as login and logout features.</p>
+						<p className='font-bold text-center'>(React JS, Tailwind CSS, Rapid API)</p>
+						<p className='font-medium  px-3 py-2 text-justify'>My bootcamp mini project responsive website where gamers can explore the best games today and latest news.</p>
 					</div>
 
 					<div className='inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md'>
