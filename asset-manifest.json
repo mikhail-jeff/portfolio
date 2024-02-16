@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cc683ced.css",
-    "main.js": "/portfolio/static/js/main.1b5714cc.js",
+    "main.css": "/portfolio/static/css/main.5c83d02b.css",
+    "main.js": "/portfolio/static/js/main.a98869d4.js",
     "static/media/miniproject.png": "/portfolio/static/media/miniproject.c1c9ecd8cc75b41ff79b.png",
     "static/media/blueDOT.png": "/portfolio/static/media/blueDOT.fb52b8273eea6e0a21cf.png",
-    "static/media/merngoal.png": "/portfolio/static/media/merngoal.4d4db07c714e5a164423.png",
+    "static/media/mern-blog.png": "/portfolio/static/media/mern-blog.9a1129e412075e364492.png",
+    "static/media/contact-manager.png": "/portfolio/static/media/contact-manager.8b366eea8903e39a6a88.png",
+    "static/media/node_mysql.png": "/portfolio/static/media/node_mysql.8676d71d3280cc056bcf.png",
+    "static/media/vite-task-tracker.png": "/portfolio/static/media/vite-task-tracker.36779df33efdb06a7b16.png",
     "index.html": "/portfolio/index.html",
-    "main.cc683ced.css.map": "/portfolio/static/css/main.cc683ced.css.map",
-    "main.1b5714cc.js.map": "/portfolio/static/js/main.1b5714cc.js.map"
+    "main.5c83d02b.css.map": "/portfolio/static/css/main.5c83d02b.css.map",
+    "main.a98869d4.js.map": "/portfolio/static/js/main.a98869d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc683ced.css",
-    "static/js/main.1b5714cc.js"
+    "static/css/main.5c83d02b.css",
+    "static/js/main.a98869d4.js"
   ]
 }
