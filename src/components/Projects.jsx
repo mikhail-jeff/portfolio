@@ -1,4 +1,4 @@
-import bluedot from "../assets/blueDOT.png";
+import mernchat from "../assets/mern-chat-app.png";
 import miniproject from "../assets/miniproject.png";
 import tasktracker from "../assets/vite-task-tracker.png";
 import mernblog from "../assets/mern-blog.png";
@@ -18,14 +18,17 @@ const Projects = () => {
 					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
 						<img
 							className="w-full h-[200px] object-cover"
-							src={bluedot}
+							src={mernchat}
 							alt=""
 						/>
-						<a href="https://blue-dot.vercel.app/html/problems.html">
-							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">BLueDOT Project</p>
+						<a
+							href="https://mern-chat-app-k836.onrender.com/login"
+							target="_blank"
+							rel="noreferrer">
+							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Chatify</p>
 						</a>
-						<p className="font-bold text-center">(HTML, CSS, JS, Bootstrap, Github Pages)</p>
-						<p className="font-medium  px-3 py-2 text-justify">I have created a responsive static informational website with a focus on raising awareness about the crisis our planet is facing. This marks my first website creation.</p>
+						<p className="font-bold text-center">(MongoDb, React, Node, Express, Socket IO, Tailwind CSS, daisyUI)</p>
+						<p className="font-medium  px-3 py-2 text-justify">A real time MERN Chat App with AUTH and Socket IO for real-time messaging designed with Tailwind CSS and daisyUI.</p>
 					</div>
 
 					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
@@ -34,7 +37,10 @@ const Projects = () => {
 							src={miniproject}
 							alt=""
 						/>
-						<a href="https://kodego-mini-project-2.netlify.app/">
+						<a
+							href="https://kodego-mini-project-2.netlify.app/"
+							target="_blank"
+							rel="noreferrer">
 							<p className="font-extrabold text-2xl text-center pt-2  text-gray-800">Game On</p>
 						</a>
 						<p className="font-bold text-center">(React JS, Tailwind CSS, Rapid API)</p>
@@ -47,7 +53,10 @@ const Projects = () => {
 							src={mernblog}
 							alt=""
 						/>
-						<a href="https://github.com/mikhail-jeff/mern-2024">
+						<a
+							href="https://github.com/mikhail-jeff/mern-2024"
+							target="_blank"
+							rel="noreferrer">
 							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Blog Web App</p>
 						</a>
 						<p className="font-bold text-center">(MongoDB, Express, Node, React JS, Tailwind)</p>
@@ -60,7 +69,10 @@ const Projects = () => {
 							src={tasktracker}
 							alt=""
 						/>
-						<a href="https://task-tracker-personal.netlify.app/">
+						<a
+							href="https://task-tracker-personal.netlify.app/"
+							target="_blank"
+							rel="noreferrer">
 							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Task Tracker App</p>
 						</a>
 						<p className="font-bold text-center">(React JS, Vite, Tailwind CSS, Netlify)</p>
@@ -73,7 +85,10 @@ const Projects = () => {
 							src={contactmanager}
 							alt=""
 						/>
-						<a href="https://github.com/mikhail-jeff/contact-api-1">
+						<a
+							href="https://github.com/mikhail-jeff/contact-api-1"
+							target="_blank"
+							rel="noreferrer">
 							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Contact Manager REST API</p>
 						</a>
 						<p className="font-bold text-center">(Express, Node, MongoDB, Postman)</p>
@@ -86,7 +101,10 @@ const Projects = () => {
 							src={nodemysql}
 							alt=""
 						/>
-						<a href="https://github.com/mikhail-jeff/node-mysql-api">
+						<a
+							href="https://github.com/mikhail-jeff/node-mysql-api"
+							target="_blank"
+							rel="noreferrer">
 							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">REST CRUD API</p>
 						</a>
 						<p className="font-bold text-center">(Express, Node, MySQL, Sequelize ORM, Postman)</p>
