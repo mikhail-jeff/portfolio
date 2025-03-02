@@ -1,9 +1,10 @@
 import mernchat from "../assets/mern-chat-app.png";
 import miniproject from "../assets/miniproject.png";
-import tasktracker from "../assets/vite-task-tracker.png";
-import mernblog from "../assets/mern-blog.png";
-import contactmanager from "../assets/contact-manager.png";
-import nodemysql from "../assets/node_mysql.png";
+import tailwindemo from "../assets/tailwind-portfolio.png";
+// import mernblog from "../assets/mern-blog.png";
+// import tasktracker from "../assets/vite-task-tracker.png";
+// import contactmanager from "../assets/contact-manager.png";
+// import nodemysql from "../assets/node_mysql.png";
 
 const Projects = () => {
 	return (
@@ -50,20 +51,20 @@ const Projects = () => {
 					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
 						<img
 							className="w-full h-[200px] object-cover"
-							src={mernblog}
+							src={tailwindemo}
 							alt=""
 						/>
 						<a
-							href="https://github.com/mikhail-jeff/mern-2024"
+							href="https://vite-tailwind-demo.netlify.app/"
 							target="_blank"
 							rel="noreferrer">
-							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Blog Web App</p>
+							<p className="font-extrabold text-2xl text-center pt-2 text-gray-800">Data Finance</p>
 						</a>
-						<p className="font-bold text-center">(MongoDB, Express, Node, React JS, Tailwind)</p>
-						<p className="font-medium  px-3 py-2 text-justify">A responsive full stack blog app with Login and Logout functionality using the MERN(MongoDB, Express, Node, React JS) Stack designed with Tailwind CSS.</p>
+						<p className="font-bold text-center">( React JS, Tailwind CSS and Netlify)</p>
+						<p className="font-medium  px-3 py-2 text-justify">This is a fully responsive website built with React and Tailwind CSS to showcase my frontend development skills hosted on Netlify.</p>
 					</div>
 
-					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
+					{/* <div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
 						<img
 							className="w-full h-[200px] object-cover"
 							src={tasktracker}
@@ -77,9 +78,9 @@ const Projects = () => {
 						</a>
 						<p className="font-bold text-center">(React JS, Vite, Tailwind CSS, Netlify)</p>
 						<p className="font-medium  px-3 py-2 text-justify">A React Vite Task Tracker App with CRUD (Create, Read, Update, Delete) functionality using Context API and Local Storage for state management, Tailwind CSS for styling, and react-toastify for displaying notifications.</p>
-					</div>
+					</div> */}
 
-					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
+					{/* <div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
 						<img
 							className="w-full h-[200px] object-cover"
 							src={contactmanager}
@@ -93,9 +94,9 @@ const Projects = () => {
 						</a>
 						<p className="font-bold text-center">(Express, Node, MongoDB, Postman)</p>
 						<p className="font-medium  px-3 py-2 text-justify">A Contact Manager backend application using Node, Express, MongoDB with CRUD, LOGIN, LOGOUT, jwt access token and error handling.</p>
-					</div>
+					</div> */}
 
-					<div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
+					{/* <div className="inline-block border shadow-lg rounded-md overflow-hidden dark:shadow-gray-500 dark:shadow-md">
 						<img
 							className="w-full h-[200px] object-cover"
 							src={nodemysql}
@@ -109,7 +110,7 @@ const Projects = () => {
 						</a>
 						<p className="font-bold text-center">(Express, Node, MySQL, Sequelize ORM, Postman)</p>
 						<p className="font-medium  px-3 py-2 text-justify">A simple backend application CRUD REST API using Node JS, Express JS, Sequelize ORM and MySQL for database.</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
